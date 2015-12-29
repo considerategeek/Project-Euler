@@ -1,0 +1,10 @@
+l=[1,2]
+sum=0
+while l[len(l)-1]<=4000000:
+  l.append(l[len(l)-1]+l[len(l)-2])
+  if l[len(l)-1]+l[len(l)-2]>4000000:
+      break
+for i in l:
+    if i%2==0:
+        sum+=i
+print sum
