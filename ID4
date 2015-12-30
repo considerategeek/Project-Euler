@@ -1,9 +1,9 @@
-l,out=[],[]
+l,output=[],[]
 for i in range(100,1000):
     for j in range(100,1000):
         l.extend(str(i*j))
         r=l[::-1]  # This makes the list reversed
         if l==r:
-         out.append(i*j)
+         output.append(i*j)
         l=[]
-print max(out)
+print max(output)
