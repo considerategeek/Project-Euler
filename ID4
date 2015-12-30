@@ -1,0 +1,10 @@
+l,out=[],[]
+for i in range(100,1000):
+    for j in range(100,1000):
+        l.extend(str(i*j))
+        r=l[::-1]
+        if l==r:
+         out.append(i*j)
+        l=[]
+print max(out)
+
