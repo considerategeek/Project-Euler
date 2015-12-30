@@ -1,0 +1,13 @@
+i,a=1,True
+while a:
+    for j in range(1,21):
+        if i%j==0:
+            a=True
+        else:
+            a=False
+            break
+    if a:
+        print i
+        break
+    i+=1
+    a=True
