@@ -1,0 +1,4 @@
+x=int(raw_input())
+square=((x*(x+1))/2)**2
+product=(x*(x+1)*((2*x)+1))/6
+print square-product
