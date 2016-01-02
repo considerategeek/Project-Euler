@@ -1,7 +1,6 @@
 a=True
 counter=0
-i=2
-l=[]
+i,l=2,[]
 while counter<10001:
     for j in range(2,i):
         if i%j==0:
